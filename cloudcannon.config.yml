@@ -8,6 +8,9 @@ paths:
   layouts: _layouts
   includes: _includes
 collections_config: {}
+collection_groups:
+  - heading:
+    collections:
 _inputs:
   categories:
     type: multiselect
@@ -25,4 +28,6 @@ _select_data: {}
 _structures: {}
 _editables: {}
 data_config: {}
-timezone: Etc/UTC
+editor:
+  default_path:
+timezone: Asia/Kolkata
